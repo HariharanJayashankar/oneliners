@@ -16,5 +16,5 @@ mkdir -p raw
 mkdir -p output
 mkdir -p documentation
 mkdir -p processed
-mkdir -p code/{cleaning, analysis}
+mkdir -p code/{cleaning,analysis}
 touch readme
