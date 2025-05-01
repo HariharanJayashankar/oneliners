@@ -1,0 +1,71 @@
+% Copyright 2004 by Till Tantau <tantau@users.sourceforge.net>.
+%
+% In principle, this file can be redistributed and/or modified under
+% the terms of the GNU Public License, version 2.
+%
+% However, this file is supposed to be a template to be modified
+% for your own needs. For this reason, if you use this file as a
+% template and not specifically distribute it as part of a another
+% package/program, I grant the extra permission to freely copy and
+% modify this file as you see fit and even to delete this copyright
+% notice. 
+\documentclass[handout,10pt,aspectratio=169]{beamer}
+\usepackage{tikz}
+\usetikzlibrary{positioning}
+\usepackage{pgfplots}
+\usepackage{gensymb}
+\usepackage{subfig}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[backend=biber,style=bwl-FU]{biblatex}
+\addbibresource{references.bib} %Imports bibliography file
+\newcommand{\propnumber}{} % initialize
+\newtheorem*{prop}{Proposition \propnumber}
+\renewcommand*{\bibfont}{\scriptsize}
+\newenvironment{propc}[1]
+  {\renewcommand{\propnumber}{#1}%
+   \begin{shaded}\begin{prop}}
+  {\end{prop}\end{shaded}}
+% There are many different themes available for Beamer. A comprehensive
+% list with examples is given here:
+% http://deic.uab.es/~iblanes/beamer_gallery/index_by_theme.html
+% You can uncomment the themes below if you would like to use a different
+% one:
+\usetheme[progressbar=frametitle]{metropolis}
+\setbeamersize{text margin left=8mm,text margin right=10mm} 
+
+
+\title{PUT TITLE HERE}
+
+% A subtitle is optional and this may be deleted
+
+\author{Hariharan Jayashankar}
+
+
+
+% - Give the names in the same order as the appear in the paper.
+% - Use the \inst{?} command only if the authors have different
+%   affiliation.
+
+% - Use the \inst command only if there are several affiliations.
+% - Keep it simple, no one is interested in your street address.
+
+\date{1st May 2025}
+% - Either use conference name or its abbreviation.
+% - Not really informative to the audience, more for people (including
+%   yourself) who are reading the slides online
+
+% Let's get started
+\usepackage{appendixnumberbeamer}
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+    
+
+\end{document}
+
+
+
